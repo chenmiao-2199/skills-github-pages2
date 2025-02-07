@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>潮果智联</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f9f9f9, #e8f5e9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .header {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .header a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ffa726;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #43a047;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .button {
+            width: 200px;
+            height: 300px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .button img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+        }
+        .button p {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">注册/登录</a>
+    </div>
+    <div class="title">潮果智联</div>
+    <div class="button-container">
+        <div class="button">
+            <img src="https://via.placeholder.com/120?text=Market" alt="市场图案">
+            <p>市场行情分析与预测</p>
+        </div>
+        <div class="button">
+            <img src="https://via.placeholder.com/120?text=Fruit" alt="水果动漫形象">
+            <p>品牌生成与管理</p>
+        </div>
+        <div class="button">
+            <img src="https://via.placeholder.com/120?text=Light" alt="科技感灯泡图案">
+            <p>智能营销文案与脚本生成</p>
+        </div>
+    </div>
+</body>
+</html>
